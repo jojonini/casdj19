@@ -1,5 +1,5 @@
 # PANDAS CHEAT SHEET
-by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mail [here](mailto:simon@netwings.ch).
+by Simon Schmid. Work in progress, without any guarantees. Spotted a mistake? Mail [here](mailto:simon@netwings.ch).
 
 ## BASICS
 
