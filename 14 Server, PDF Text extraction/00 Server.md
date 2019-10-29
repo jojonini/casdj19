@@ -2,7 +2,7 @@
 
 -> [Anleitung für Windows](https://tutorials.ubuntu.com/tutorial/tutorial-ssh-keygen-on-windows#0)
 
-1. Zuerst machen wir einen Krypto-Schlüssel: ```ssh-keygen -t rsa -C "your_email@example.com".```  RETURN, RETURN, RETURN.
+1. Zuerst machen wir einen Krypto-Schlüssel: ```ssh-keygen -t rsa -C "your_email@example.com"```  RETURN, RETURN, RETURN.
 2. Jetzt sehen wir den public Key an: ```cat ~/.ssh/id_rsa.pub```
    Diesen Schlüssel kopieren wir.
 3. Öffne digital ocean
