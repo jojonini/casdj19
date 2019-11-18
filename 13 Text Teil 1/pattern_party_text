@@ -1,0 +1,15 @@
+from pattern.de import parse
+from pattern.de import parsetree
+
+party_text = '''Kurz vor 22.00 Uhr sind Polizisten der Stadtpolizei in alle Richtungen aber vor allem in Richtung Kreis 9 ausgerückt. Grund war eine Meldung zu einer privaten Party an der Aargauerstrasse, die angeblich ausser Kontrolle geraten sei.
+'''
+
+s = parsetree(party_text,relations=True, lemmata=True)
+
+lemmata = []
+for sentence in s:
+    for chunk in sentence.chunks:
+        for word in chunk.words:
+            #print("%s (%s)" %(word,word.lemma))
+            lemmata.append(word.lemma)
+lemmata[0:20]
